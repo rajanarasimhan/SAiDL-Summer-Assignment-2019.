@@ -1,1 +1,6 @@
 # SAiDL-Summer-Assignment-2019.
+1)First assignment-
+Here we are given a two 2 bit binary number and one more input(0,1). Depending on that input we have to find XOR or XNOR gate. For this I created a function which uses ([[0,0],[0,1],[1,0],[1,1]]) as training input and ([0],[1],[1],[0]) as training output. Here I train the neural net using back propagation algoritham. After this user enters 5 numbers as inputs and using the weights calculated and the third input
+2)Second Assignment-
+Here we have to find text-rank summarization. I'm using textrank algoritham. I used glove.6b.100d.txt. What this embedding matrix does is that by using the word embedding matrix we can directly find the hidden layer outputs my multyplying with hidden layer. Then I try to replace all the special characters with spacebars and make all my characters lower. Then I try to remove stopwords(words which occur very frequently like 'the' 'an' 'a'. Then by taking all the word vectors and using the concept of mean I find the consolidated sentence vector. Now is the main part. I use similarity matrix. The text rank is built on this concept. This matrix helps in finding similarity based on probability on how that one sentence will take you the next. Last in the end we rank top 10 senteces
+Also is the pdf for BERT algorithm
